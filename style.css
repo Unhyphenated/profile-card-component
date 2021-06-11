@@ -1,0 +1,43 @@
+/*Center Card*/
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.card {
+    width: %;
+    height: 20%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+
+#background {
+   width: 100%;
+   height: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+#profile {
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*Statistics*/
+.stats {
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+/*Attributions*/
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

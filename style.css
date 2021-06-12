@@ -1,16 +1,24 @@
 /*Center Card*/
 body {
     background-color: hsl(185, 75%, 39%);
+    background-image: url(file:///C:/Users/USER/Documents/Programming/Web%20Development/Repositories/frontend-mentor/profile-card-component/images/bg-pattern-top.svg),
+    url(file:///C:/Users/USER/Documents/Programming/Web%20Development/Repositories/frontend-mentor/profile-card-component/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -100px -300px, 900px 400px;
+    background-size: 50%, 70%;
 }
 
 .card {
-    width: %;
-    height: 20%;
-    margin: auto;
+    width: 375px;
+    height: 300px;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 20px 20px 0px 0px;
     text-align: center;
+    border-bottom: 0.1px solid #e7e7e7;
+    position: relative;
+    top: 200px;
 }
 
 #background {
@@ -21,16 +29,21 @@ body {
 
 #profile {
     border-radius: 50%;
-    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    border: 5px solid white;
 }
 
 /*Statistics*/
 .stats {
-    width: 20%;
-    height: 50px;
+    width: 375px;
+    height: 100px;
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 20px 20px;
+    position: relative; 
+    top: 200px;
 }
 /*Attributions*/
 
@@ -40,4 +53,16 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 375px){
+    .card {
+        width: 80%;
+        height: 50%;
+    }
+
+    .stats {
+        width: 80%;
+        height: 50%;
+    }
 }
